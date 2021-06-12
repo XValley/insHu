@@ -45,7 +45,7 @@ if($text == '/help'){
               'caption'=>'طرق السحبب🤘😂',
                       'reply_markup'=>json_encode([
                       'inline_keyboard'=>[                       
-                       [['text'=>"𝙍𝙚𝙥𝙤𝙧𝙩 𝙋𝙧𝙤𝙗𝙡𝙚𝙢𝙨", 'url'=>"https://t.me/ktkkkk"]],
+                       [['text'=>"𝙍𝙚𝙥𝙤𝙧𝙩 𝙋𝙧𝙤𝙗𝙡𝙚𝙢𝙨", 'url'=>"https://t.me/kttkkkk"]],
                        ]
                        ])
                        ]);
@@ -188,7 +188,7 @@ if($text == '/help'){
 اضغط في الاسفل لمراسله المطور 👇",
 							'reply_markup'=>json_encode([
                   'inline_keyboard'=>[
-                      [['text'=>'𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧','url'=>'t.me/kttkkkk']]
+                      [['text'=>'𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧','url'=>'t.me/SaRLiN']]
                   ]
 							])
 					]);
@@ -220,7 +220,7 @@ if($text == '/help'){
           	file_put_contents('config.json', json_encode($config));
           	$bot->sendMessage([
           			'chat_id'=>$chatId,
-          			'text'=>"Send Account Like : user:pass",
+          			'text'=>"Send Account Like : `user:pass`",
           			'parse_mode'=>'markdown'
           	]);
           } elseif($data == 'grabber'){
@@ -397,7 +397,7 @@ if($text == '/help'){
                       'chat_id'=>$chatId,
                       'message_id'=>$mid,
                      'text'=>"𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗖𝗢𝗡𝗧𝗥𝗢𝗟 𝗣𝗔𝗡𝗘𝗟 ✅
-𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 - @kttkkkk",
+𝘾𝙤𝙣𝙩𝙖𝙘𝙩 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 - @ktkkkk",
                   'reply_markup'=>json_encode([
                       'inline_keyboard'=>[
                           [['text'=>'اضافة حساب 👨🏻‍💻','callback_data'=>'login']],
