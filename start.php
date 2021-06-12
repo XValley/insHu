@@ -37,7 +37,7 @@ $edit = bot('sendMessage',[
                 [['text'=>'Died ❎: '.$false,'callback_data'=>'dghkf']]
             ]
         ])
-]);
+]);}
 $se = 100;
 $editAfter = 1;
 foreach ($users as $user) {
