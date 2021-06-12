@@ -8,7 +8,7 @@
 // $file = $config['for'];
 // $a = file_exists('a') ? file_get_contents('a') : 'ap';
 // if($a == 'new'){
-//  file_put_contents($file, '');
+// 	file_put_contents($file, '');
 // }
 // $ig = new ig(['account'=>$accounts[$file],'file'=>$file]);
 $get = file_get_contents('https://www.instagram.com/p/CB5RaX3l6Gk/'');
